@@ -190,7 +190,7 @@ qemu-system-x86_64 --version
 sudo apt install virt-manager -y
 
 Respuesta de salida:
-![Instalación QEMU](./imagenes/capturas%20de%20pantalla/instalacionqmu.png)
+![Instalación QEMU](Instalacionqmu.png)
 
 
 
