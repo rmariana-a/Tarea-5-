@@ -17,8 +17,8 @@
    1.12. [AlmaLinux](#112-almalinux)
 
 2. Instalación Quemu
-   2.1. [Qué és]
-   2.2  [Paso a paso para la instalación]
+   2.1. [Qué és](#21-qué-es)  
+   2.2  [Paso a paso para la instalación](#22-paso-a-paso-para-la-instalación)  
 
 ---
 
@@ -177,19 +177,20 @@ Virt-Manager (Virtual Machine Manager) es una interfaz gráfica que facilita el 
 ## 2.2 Paso a paso para la instalación 
 
 Comandos usados: 
-# 1️. Actualizar repositorios
+a. Actualizar repositorios
 sudo apt update
 
-# 2️. Instalar QEMU y utilidades
+b. Instalar QEMU y utilidades
 sudo apt install qemu-system qemu-utils -y
 
-# 3️.  Verificar versión de QEMU
+c.  Verificar versión de QEMU
 qemu-system-x86_64 --version
 
-# 4️. Instalar Virt-Manager (interfaz gráfica)
+d. Instalar Virt-Manager (interfaz gráfica)
 sudo apt install virt-manager -y
 
-Respuesta de salida:
+## Respuesta de salida:
+
 ![Instalación QEMU](Instalacionqmu.png)
 
 
