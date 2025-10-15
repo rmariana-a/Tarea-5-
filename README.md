@@ -19,7 +19,14 @@
 2. Instalación Quemu
    
    2.1. [Qué és](#21-qué-es)  
-   2.2. [Paso a paso para la instalación](#22-paso-a-paso-para-la-instalación)  
+   2.2. [Paso a paso para la instalación](#22-paso-a-paso-para-la-instalación)
+
+
+3. Analisis de red con NMMAP
+   3.1. [Qué és](#31-qué-es)  
+   3.2. [Paso a paso para la instalación](#32-paso-a-paso-para-la-instalación)
+
+
 
 ---
 
@@ -195,7 +202,6 @@ e. Creación Disco virtual
 `qemu-img create -f qcow2 disk.qcow2 10G `
  
 
-
 ---
 
 ## Respuesta de salida:
@@ -203,8 +209,40 @@ e. Creación Disco virtual
 ![Instalación QEMU](Instalacionqmu.png)
 
 ---
+3. 
+
+## 3.1 ¿Qué es?
+
+---
+
+## 3.2 Paso a paso para la instalación.
+a. Verificar versión de nmap:
+`nmap --version`
+
+b. Instalar:
+`sudo apt update && sudo apt install -y nmap`
+c. Creación de un directorio para guardar resultados:
+`mkdir -p ~/nmap_scans && cd ~/nmap_scans`
+
+Salida: ![Instalació nmap](Instalacionqmu.png)
 
 
+d. Escaneo simple de descubrimiento de hosts activos en una subred 
+`nmap -sn 192.168.1.0/24`
+
+e.Escaneo SYN rápido de puertos comunes en un host
+`sudo nmap -sS -T4 192.168.1.10`
+
+f. Escaneo completo de todos los puertos (1-65535) en un host
+`sudo nmap -sS -p- -T4 -oA scan_completo_192.168.1.10 192.168.1.10
+
+g. Detección de versión de servicios y sistema operativo
+`sudo nmap -sS -sV -O -p 22,80,443,139,445 192.168.1.10`
+
+h. Escaneo de una subred
+`sudo nmap -sS -sV -T4 -p 22,80,443 192.168.1.0/24 -oA inventario_subred_192.168.1.0-24`
+`
+i.Ver los resultados guardados (.nmap)
 
 
 ### Referencias 
