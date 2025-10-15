@@ -255,6 +255,7 @@ h. Escaneo de una subred:
 i.Ver los resultados guardados (.nmap): 
 `less inventario_subred_192.168.1.0-24.nmap`
 
+
 Salida:
 
 ![Escaneo nmap](ih.png)
