@@ -17,8 +17,9 @@
    1.12. [AlmaLinux](#112-almalinux)
 
 2. Instalación Quemu
+   
    2.1. [Qué és](#21-qué-es)  
-   2.2  [Paso a paso para la instalación](#22-paso-a-paso-para-la-instalación)  
+   2.2. [Paso a paso para la instalación](#22-paso-a-paso-para-la-instalación)  
 
 ---
 
