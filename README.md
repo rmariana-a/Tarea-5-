@@ -176,7 +176,9 @@ Virt-Manager (Virtual Machine Manager) es una interfaz gráfica que facilita el 
 ---
 
 ## 2.2 Paso a paso para la instalación 
+
 Comandos usados: 
+
 a. Actualizar repositorios con:
 `sudo apt update`
 
