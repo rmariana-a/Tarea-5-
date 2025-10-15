@@ -1,4 +1,4 @@
-# INVESSTIGACIÓN SOBRE SISTEMAS OPERATIVOS 
+# Tarea-5: INVESTIGACIÓN SOBRE SISTEMAS OPERATIVOS 
 
 ##  Índice
 
@@ -14,7 +14,9 @@
    1.9. [Linux Mint](#19-linux-mint)  
    1.10. [Ubuntu](#110-ubuntu)  
    1.11. [Alpine Linux](#111-alpine-linux)  
-   1.12. [AlmaLinux](#112-almalinux)  
+   1.12. [AlmaLinux](#112-almalinux)
+
+2. Instalación Quemu
 
 ---
 
