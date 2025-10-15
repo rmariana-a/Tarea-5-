@@ -180,7 +180,9 @@ Comandos usados:
 
 
 a. Actualizar repositorios con:
-<pre> ``` sudo apt update ``` </pre>
+sudo apt update
+
+
 
 ---
 
