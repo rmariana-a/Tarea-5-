@@ -17,6 +17,8 @@
    1.12. [AlmaLinux](#112-almalinux)
 
 2. Instalación Quemu
+   2.1. [Qué és]
+   2.2  [Paso a paso para la instalación]
 
 ---
 
@@ -163,6 +165,36 @@ AlmaLinux ofrece compatibilidad total con RHEL, soporte a largo plazo y parches 
 AlmaLinux se utiliza en servidores empresariales, nubes híbridas y entornos de desarrollo. Es la elección preferida de quienes migraron desde CentOS. Se emplea en hosting, bases de datos, servicios web y contenedores. Su compatibilidad con RHEL permite ejecutar aplicaciones empresariales sin modificaciones. AlmaLinux es usado por universidades, instituciones gubernamentales y empresas que buscan estabilidad a largo plazo. Su comunidad mantiene soporte técnico y documentación completa. Representa una alternativa robusta y abierta para infraestructuras de misión crítica.  
 
 ---
+2. 
+
+## 2.1 ¿Qué es?
+QEMU (Quick EMUlator) es un emulador y virtualizador de código abierto que permite ejecutar sistemas operativos completos dentro de otros sistemas. Funciona simulando hardware (CPU, memoria, red, disco, etc.), lo que lo convierte en una herramienta ideal para crear entornos de práctica, probar software o sistemas sin alterar el sistema principal.
+
+Virt-Manager (Virtual Machine Manager) es una interfaz gráfica que facilita el uso de QEMU/KVM, permitiendo crear, configurar y monitorear máquinas virtuales de manera visual, sin depender exclusivamente de la terminal.
+
+---
+
+## 2.2 Paso a paso para la instalación 
+
+Comandos usados: 
+# 1️. Actualizar repositorios
+sudo apt update
+
+# 2️. Instalar QEMU y utilidades
+sudo apt install qemu-system qemu-utils -y
+
+# 3️.  Verificar versión de QEMU
+qemu-system-x86_64 --version
+
+# 4️. Instalar Virt-Manager (interfaz gráfica)
+sudo apt install virt-manager -y
+
+Respuesta de salida:
+![Instalación QEMU](./imagenes/capturas%20de%20pantalla/instalacionqmu.png)
+
+
+
+
 
 ### Referencias 
 
