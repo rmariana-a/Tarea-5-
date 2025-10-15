@@ -178,17 +178,17 @@ Virt-Manager (Virtual Machine Manager) es una interfaz gráfica que facilita el 
 ## 2.2 Paso a paso para la instalación 
 
 Comandos usados: 
-a. Actualizar repositorios
-sudo apt update
+a. Actualizar repositorios con 
+## sudo apt update
 
-b. Instalar QEMU y utilidades
-sudo apt install qemu-system qemu-utils -y
+b. Instalar QEMU y utilidades con
+## sudo apt install qemu-system qemu-utils -y
 
-c.  Verificar versión de QEMU
-qemu-system-x86_64 --version
+c.  Verificar versión de QEMU:
+## qemu-system-x(9.2.1) --version
 
-d. Instalar Virt-Manager (interfaz gráfica)
-sudo apt install virt-manager -y
+d. Instalación de  Virt-Manager
+## sudo apt install virt-manager -y
 
 ## Respuesta de salida:
 
