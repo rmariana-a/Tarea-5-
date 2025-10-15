@@ -247,7 +247,7 @@ Salida:
 
 h. Escaneo de una subred
 `sudo nmap -sS -sV -T4 -p 22,80,443 192.168.1.0/24 -oA inventario_subred_192.168.1.0-24`
-`
+
 i.Ver los resultados guardados (.nmap)
 `less inventario_subred_192.168.1.0-24.nmap`
 
