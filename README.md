@@ -192,7 +192,8 @@ d. Instalación de Virt-Manager:
 `sudo apt install virt-manager -y`
 
 e. Creación Disco virtual
-'qemu-img create -f qcow2 disk.qcow2 10G `
+`qemu-img create -f qcow2 disk.qcow2 10G `
+ 
 
 
 ---
