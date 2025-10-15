@@ -194,8 +194,11 @@ d. Instalación de  Virt-Manager
 
 ![Instalación QEMU](Instalacionqmu.png)
 
+---
 
 
+```bash
+sudo apt update
 
 
 
