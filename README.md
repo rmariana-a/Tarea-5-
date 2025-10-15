@@ -229,26 +229,26 @@ Salida:
 ![Instalación nmap](a.b.c.png)
 
 
-d. Escaneo simple de descubrimiento de hosts activos en una subred 
+d. Escaneo simple de descubrimiento de hosts activos en una subred :
 `nmap -sn 192.168.1.0/24`
 
-e.Escaneo SYN rápido de puertos comunes en un host
+e.Escaneo SYN rápido de puertos comunes en un host:
 `sudo nmap -sS -T4 192.168.1.10`
 
-f. Escaneo completo de todos los puertos (1-65535) en un host
-`sudo nmap -sS -p- -T4 -oA scan_completo_192.168.1.10 192.168.1.10
+f. Escaneo completo de todos los puertos (1-65535) en un host: 
+`sudo nmap -sS -p- -T4 -oA scan_completo_192.168.1.10 192.168.1.10`
 
-g. Detección de versión de servicios y sistema operativo
+g. Detección de versión de servicios y sistema operativo:
 `sudo nmap -sS -sV -O -p 22,80,443,139,445 192.168.1.10`
 
 Salida:
 
 ![Escaneo nmap](d.e.f.g.png)
 
-h. Escaneo de una subred
+h. Escaneo de una subred:
 `sudo nmap -sS -sV -T4 -p 22,80,443 192.168.1.0/24 -oA inventario_subred_192.168.1.0-24`
 
-i.Ver los resultados guardados (.nmap)
+i.Ver los resultados guardados (.nmap): 
 `less inventario_subred_192.168.1.0-24.nmap`
 
 Salida:
